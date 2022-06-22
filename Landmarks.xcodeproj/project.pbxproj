@@ -12,6 +12,7 @@
 		4A3F32082860C13000EB5024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3F32072860C13000EB5024 /* Assets.xcassets */; };
 		4A3F320B2860C13000EB5024 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3F320A2860C13000EB5024 /* Preview Assets.xcassets */; };
 		4AD6B09428612C96003B9A4C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD6B09328612C96003B9A4C /* CircleImage.swift */; };
+		4AD6B0CB28634BBB003B9A4C /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4AD6B0CA28634BBB003B9A4C /* SampleCode.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4A3F32072860C13000EB5024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3F320A2860C13000EB5024 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AD6B09328612C96003B9A4C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4AD6B0CA28634BBB003B9A4C /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				4A3F32032860C12E00EB5024 /* LandmarksApp.swift */,
 				4A3F32052860C12E00EB5024 /* ContentView.swift */,
 				4AD6B09328612C96003B9A4C /* CircleImage.swift */,
+				4AD6B0C928634BB0003B9A4C /* Configuration */,
 				4A3F32072860C13000EB5024 /* Assets.xcassets */,
 				4A3F32092860C13000EB5024 /* Preview Content */,
 			);
@@ -68,6 +71,14 @@
 				4A3F320A2860C13000EB5024 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AD6B0C928634BB0003B9A4C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				4AD6B0CA28634BBB003B9A4C /* SampleCode.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3F320B2860C13000EB5024 /* Preview Assets.xcassets in Resources */,
+				4AD6B0CB28634BBB003B9A4C /* SampleCode.xcconfig in Resources */,
 				4A3F32082860C13000EB5024 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
